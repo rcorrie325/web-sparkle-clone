@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import carpeDataumLogo from "@/assets/carpe-datum-logo.png";
 import learnMoreButton from "@/assets/learn-more-button.png";
+import columnsBackground from "@/assets/columns-background.jpg";
 
 const About = () => {
   return (
@@ -9,10 +10,16 @@ const About = () => {
       
       {/* Hero Section with Background Image */}
       <div className="relative h-96 bg-gradient-to-r from-slate-100 to-slate-200 flex items-center justify-center">
-        <div className="absolute inset-0 bg-black/10"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${columnsBackground})`
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-center">
-          <h1 className="text-5xl font-bold text-slate-800 mb-4">Welcome to Carpe Datum</h1>
-          <h2 className="text-2xl font-semibold text-primary">Our Mission...</h2>
+          <h1 className="text-5xl font-bold text-white mb-4">Welcome to Carpe Datum</h1>
+          <h2 className="text-2xl font-semibold text-red-200">Our Mission...</h2>
         </div>
       </div>
 
