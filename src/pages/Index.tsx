@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, BarChart3, Users, Target } from "lucide-react";
 import { Link } from "react-router-dom";
+import capitolBackground from "@/assets/capitol-background.jpg";
 
 const Index = () => {
   const features = [
@@ -29,13 +30,19 @@ const Index = () => {
       
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-slate-100 to-slate-200 py-24">
-        <div className="absolute inset-0 bg-black/5"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${capitolBackground})`
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold text-slate-800 mb-6">Welcome to Carpe Datum</h1>
-          <p className="text-2xl text-primary font-semibold mb-8 italic">
+          <h1 className="text-5xl font-bold text-white mb-6">Welcome to Carpe Datum</h1>
+          <p className="text-2xl text-red-200 font-semibold mb-8 italic">
             Seize the Data... To Grow Your Business
           </p>
-          <p className="text-xl text-slate-700 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
             Strategic consulting for data and analytics companies looking to succeed in the government market
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

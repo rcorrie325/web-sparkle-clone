@@ -2,17 +2,25 @@ import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Users } from "lucide-react";
+import courthouseBackground from "@/assets/courthouse-background.jpg";
 
 const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary/10 to-primary/5 py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-foreground mb-4">Contact Us</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+      {/* Hero Section with Background Image */}
+      <div className="relative h-96 bg-gradient-to-r from-slate-100 to-slate-200 flex items-center justify-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${courthouseBackground})`
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="relative z-10 text-center">
+          <h1 className="text-5xl font-bold text-white mb-4">Contact Us</h1>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto">
             Ready to grow your government business? Let's discuss how we can help.
           </p>
         </div>
