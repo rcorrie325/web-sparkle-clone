@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import governmentOfficeBackground from "@/assets/government-office.jpg";
+import supremeCourtBackground from "@/assets/supreme-court-building.jpg";
 
 const Services = () => {
   const services = [
@@ -42,7 +42,7 @@ const Services = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${governmentOfficeBackground})`
+            backgroundImage: `url(${supremeCourtBackground})`
           }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>
