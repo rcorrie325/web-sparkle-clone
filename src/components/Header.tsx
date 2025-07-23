@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import carpeDataumLogo from "@/assets/carpe-datum-logo.png";
 
 const Header = () => {
   const location = useLocation();
@@ -17,9 +18,11 @@ const Header = () => {
         {/* Top banner */}
         <div className="flex justify-between items-center py-3 border-b border-slate-700">
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">CD</span>
-            </div>
+            <img 
+              src={carpeDataumLogo} 
+              alt="Carpe Datum Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="text-2xl font-bold text-white">Carpe Datum</h1>
             </div>

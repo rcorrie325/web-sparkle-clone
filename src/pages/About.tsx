@@ -1,4 +1,6 @@
 import Header from "@/components/Header";
+import carpeDataumLogo from "@/assets/carpe-datum-logo.png";
+import learnMoreButton from "@/assets/learn-more-button.png";
 
 const About = () => {
   return (
@@ -37,9 +39,11 @@ const About = () => {
             {/* Commitment Statement */}
             <div className="bg-slate-50 p-8 rounded-lg border-l-4 border-primary my-12">
               <div className="flex items-center justify-center mb-6">
-                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-2xl">CD</span>
-                </div>
+                <img 
+                  src={carpeDataumLogo} 
+                  alt="Carpe Datum Globe Logo" 
+                  className="w-20 h-20 object-contain"
+                />
               </div>
               <p className="text-xl font-semibold text-center text-slate-800">
                 <strong>Carpe Datum is committed to making each client relationship a mutually-beneficial and success-oriented engagement.</strong>
@@ -50,9 +54,13 @@ const About = () => {
             <div className="text-center mt-12">
               <a 
                 href="#" 
-                className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors"
+                className="inline-block hover:opacity-90 transition-opacity"
               >
-                LEARN MORE
+                <img 
+                  src={learnMoreButton} 
+                  alt="Learn More" 
+                  className="h-16 object-contain"
+                />
               </a>
             </div>
           </div>
