@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, BarChart3, Users, Target } from "lucide-react";
 import { Link } from "react-router-dom";
-import capitolBackground from "@/assets/capitol-background.jpg";
+import realCapitolBackground from "@/assets/real-capitol-background.jpg";
 
 const Index = () => {
   const features = [
@@ -33,7 +33,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${capitolBackground})`
+            backgroundImage: `url(${realCapitolBackground})`
           }}
         ></div>
         <div className="absolute inset-0 bg-black/40"></div>

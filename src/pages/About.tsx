@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import carpeDataumLogo from "@/assets/carpe-datum-logo.png";
 import learnMoreButton from "@/assets/learn-more-button.png";
-import columnsBackground from "@/assets/columns-background.jpg";
+import realColumnsBackground from "@/assets/real-columns-background.jpg";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${columnsBackground})`
+            backgroundImage: `url(${realColumnsBackground})`
           }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>

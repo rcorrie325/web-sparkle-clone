@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Users } from "lucide-react";
-import courthouseBackground from "@/assets/courthouse-background.jpg";
+import realCourthouseBackground from "@/assets/real-courthouse-background.jpg";
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${courthouseBackground})`
+            backgroundImage: `url(${realCourthouseBackground})`
           }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>
