@@ -28,7 +28,7 @@ const Header = () => {
             </div>
           </div>
           <div className="text-right">
-            <p className="text-primary font-semibold text-lg italic">
+            <p className="text-red-200 font-semibold text-lg italic">
               Seize the Data... To Grow Your Business
             </p>
             <p className="text-slate-300 text-sm">
