@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Users } from "lucide-react";
-import governmentBackground from "@/assets/real-government-building.jpg";
+import governmentBackground from "@/assets/supreme-court-building.jpg";
 
 const Contact = () => {
   return (

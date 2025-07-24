@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import courthouseBackground from "@/assets/real-courthouse-background.jpg";
+import courthouseBackground from "@/assets/federal-building.jpg";
 
 const Services = () => {
   const services = [
