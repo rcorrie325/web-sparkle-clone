@@ -141,26 +141,12 @@ const Newsletter = () => {
           <div className="mt-16 text-center">
             <div className="bg-slate-100 rounded-lg p-8 max-w-3xl mx-auto">
               <h3 className="text-xl font-semibold text-slate-800 mb-4">
-                Join Our Growing Community
+                Join Our Community
               </h3>
               <p className="text-slate-600 mb-6">
-                Over 2,500 government contractors, analysts, and business leaders trust 
+                Connect with government contractors, analysts, and business leaders who rely on 
                 Carpe Datum for actionable insights that drive growth and success.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                <div>
-                  <div className="text-2xl font-bold text-primary">2,500+</div>
-                  <div className="text-sm text-slate-600">Subscribers</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-primary">Weekly</div>
-                  <div className="text-sm text-slate-600">Publications</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-primary">5 min</div>
-                  <div className="text-sm text-slate-600">Average Read Time</div>
-                </div>
-              </div>
               <p className="text-xs text-slate-500 mt-6">
                 Unsubscribe at any time. We respect your privacy and never share your information.
               </p>
