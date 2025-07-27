@@ -8,9 +8,9 @@ const Newsletter = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Header />
-      
+
       {/* Hero Section */}
-      <section 
+      <section
         className="relative h-64 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${capitolBackground})` }}
       >
@@ -29,7 +29,7 @@ const Newsletter = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
-            
+
             {/* Newsletter Signup */}
             <div>
               <Card>
@@ -45,7 +45,7 @@ const Newsletter = () => {
                       To subscribe to our Federal Data Prospector Newsletter, please click the button below:
                     </p>
                     <Button asChild className="w-full">
-                      <a 
+                      <a
                         href="https://cd1.azurewebsites.net/api/trk?t=SubWS1&r=885dea0431284790a185967be36b5c89"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -68,7 +68,7 @@ const Newsletter = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600">
-                      Expert analysis on federal data trends, new datasets, and emerging opportunities 
+                      Expert analysis on federal data trends, new datasets, and emerging opportunities
                       in government analytics.
                     </p>
                   </CardContent>
@@ -80,7 +80,7 @@ const Newsletter = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600">
-                      Stay ahead of regulatory changes and policy developments that impact 
+                      Stay ahead of regulatory changes and policy developments that impact
                       government contracting and data management.
                     </p>
                   </CardContent>
@@ -92,7 +92,7 @@ const Newsletter = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600">
-                      Learn from successful case studies and proven methodologies for 
+                      Learn from successful case studies and proven methodologies for
                       government data projects and business growth strategies.
                     </p>
                   </CardContent>
@@ -104,7 +104,7 @@ const Newsletter = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-slate-600">
-                      Get early access to our educational events, networking opportunities, 
+                      Get early access to our educational events, networking opportunities,
                       and expert-led training sessions.
                     </p>
                   </CardContent>
@@ -129,9 +129,9 @@ const Newsletter = () => {
                     Our most recent newsletter featuring federal data opportunities and industry insights.
                   </p>
                   <Button variant="outline" className="w-full" asChild>
-                    <a 
+                    <a
                       href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=JUXJ1AeJP1g"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       Read Latest Issue
@@ -147,7 +147,7 @@ const Newsletter = () => {
             <h2 className="text-2xl font-bold text-slate-800 mb-8 text-center">
               Complete Federal Data Prospector Newsletter Archive
             </h2>
-            
+
             {/* Volume 7 - Most Recent */}
             <div className="mb-8">
               <Card>
@@ -343,12 +343,12 @@ const Newsletter = () => {
                 Join Our Community
               </h3>
               <p className="text-slate-600 mb-6">
-                Connect with government contractors, analysts, and business leaders who rely on 
+                Connect with government contractors, analysts, and business leaders who rely on
                 Carpe Datum for actionable insights that drive growth and success.
               </p>
               <p className="text-slate-600 mb-4">
                 For more information about our newsletter or to request past issues, please contact us at{" "}
-                <a 
+                <a
                   href="tel:202-253-2060"
                   className="text-blue-600 hover:text-blue-800 underline font-medium"
                 >

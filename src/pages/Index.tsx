@@ -27,10 +27,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-slate-100 to-slate-200 py-24">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${realCapitolBackground})`
@@ -68,7 +68,7 @@ const Index = () => {
               We're a strategy firm dedicated to helping data and analytics companies thrive in the government sector
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {features.map((feature, index) => (
               <Card key={index} className="text-center">
@@ -98,12 +98,12 @@ const Index = () => {
               <p>
                 Carpe Datum, LLC is a small consultancy established in 2017, based in Washington, DC. Founded by two partners with over 50 years of collective experience at the nexus of data, analytics, and government, our aspiration is to apply this background to assist other data and analytic companies effectively establish, grow, and refine their offerings to government customers.
               </p>
-              
+
               <p>
                 At our core, we think of Carpe Datum as a strategy firm – and are at our best helping customers address a challenge, leveraging the learnings and more importantly avoiding the mistakes we've made over our careers.
               </p>
             </div>
-            
+
             <div className="mt-12">
               <Button size="lg" asChild>
                 <Link to="/about">

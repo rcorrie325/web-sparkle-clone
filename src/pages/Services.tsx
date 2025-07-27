@@ -36,10 +36,10 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section with Background Image */}
       <div className="relative h-96 bg-gradient-to-r from-slate-100 to-slate-200 flex items-center justify-center">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${courthouseBackground})`
@@ -82,12 +82,12 @@ const Services = () => {
         {/* What We Do Section */}
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">What We Do</h2>
-          
+
           <div className="bg-card rounded-lg p-8 border">
             <p className="text-lg text-card-foreground mb-6 leading-relaxed">
               As a strategy firm, we are at our best helping customers address challenges by leveraging our learnings and, more importantly, avoiding the mistakes we've made over our careers.
             </p>
-            
+
             <p className="text-lg text-card-foreground mb-6 leading-relaxed">
               We collaborate on opportunities ranging from supporting specific procurements to developing comprehensive go-to-market strategies, supporting ongoing business development, or teaming to deliver our combined services to government customers.
             </p>
@@ -110,7 +110,7 @@ const Services = () => {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-primary">Large Engagements</h3>
                 <ul className="space-y-2">

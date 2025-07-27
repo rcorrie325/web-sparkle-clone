@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section with Background Image */}
       <div className="relative h-96 bg-gradient-to-r from-slate-100 to-slate-200 flex items-center justify-center">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${governmentBackground})`
@@ -32,7 +32,7 @@ const Contact = () => {
           {/* Contact Details */}
           <div>
             <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
-            
+
             <div className="space-y-6 mb-8">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -45,7 +45,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                   <Mail className="w-6 h-6 text-primary" />
@@ -55,7 +55,7 @@ const Contact = () => {
                   <p className="text-muted-foreground">mcaskin@carpedatumdc.com</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-primary" />
@@ -65,7 +65,7 @@ const Contact = () => {
                   <p className="text-muted-foreground">Washington, DC</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                   <Users className="w-6 h-6 text-primary" />
@@ -88,7 +88,7 @@ const Contact = () => {
           {/* Engagement Options */}
           <div>
             <h2 className="text-3xl font-bold mb-8">How We Work</h2>
-            
+
             <div className="space-y-6">
               <Card>
                 <CardHeader>

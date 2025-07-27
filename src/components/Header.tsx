@@ -19,9 +19,9 @@ const Header = () => {
         {/* Top banner */}
         <div className="flex justify-between items-center py-3 border-b border-slate-700">
           <div className="flex items-center space-x-4">
-            <img 
-              src={carpeDataumLogo} 
-              alt="Carpe Datum Logo" 
+            <img
+              src={carpeDataumLogo}
+              alt="Carpe Datum Logo"
               className="w-12 h-12 object-contain"
             />
             <div>

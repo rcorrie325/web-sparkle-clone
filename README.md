@@ -39,7 +39,7 @@ npm run dev
 # Opens: http://localhost:5173
 
 # Method 2: Production Preview
-npm run build && npm run preview  
+npm run build && npm run preview
 # Opens: http://localhost:4173
 ```
 
@@ -120,7 +120,7 @@ This project includes a comprehensive testing infrastructure to ensure code qual
 Automatically run before each commit to catch issues early:
 
 - **ESLint**: Code style and error checking
-- **TypeScript**: Type safety validation  
+- **TypeScript**: Type safety validation
 - **Build Check**: Ensures deployable artifacts
 - **Code Quality**: Removes trailing whitespace, fixes formatting
 
@@ -160,7 +160,7 @@ npm run preview     # Preview production build locally
 
 **All changes must pass:**
 - ✅ ESLint validation (max 10 warnings)
-- ✅ TypeScript compilation 
+- ✅ TypeScript compilation
 - ✅ Successful build generation
 - ✅ Security scan (HIGH/CRITICAL issues only)
 
