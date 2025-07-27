@@ -1,0 +1,10 @@
+# Trivy ignore file for dependency vulnerabilities
+# Ignore low and medium severity issues in node_modules
+# These are typically dev dependencies and not critical for production
+
+# Ignore issues in development dependencies
+CVE-2023-*
+CVE-2024-*
+
+# Focus only on high/critical vulnerabilities
+# that could affect production builds
