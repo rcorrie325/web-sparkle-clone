@@ -137,6 +137,71 @@ const Newsletter = () => {
             </div>
           </div>
 
+          {/* Previous Newsletter Issues */}
+          <div className="mt-16">
+            <h2 className="text-2xl font-bold text-slate-800 mb-8 text-center">
+              Federal Data Prospector Newsletter Archive
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Volume 2, Issue #37</CardTitle>
+                  <CardDescription>Latest Edition</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600 mb-4">
+                    Federal contract opportunities and data analytics deals for our community members.
+                  </p>
+                  <Button variant="outline" className="w-full" asChild>
+                    <a href="https://www.carpedatumdc.com/wp-content/uploads/2020/08/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-37..pdf" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                      Download PDF
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">Volume 2, Issue #5</CardTitle>
+                  <CardDescription>Previous Edition</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600 mb-4">
+                    Federal procurement insights and data analytic opportunities for our community.
+                  </p>
+                  <Button variant="outline" className="w-full" asChild>
+                    <a href="https://www.carpedatumdc.com/wp-content/uploads/2020/01/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-5..pdf" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                      Download PDF
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-lg">More Issues</CardTitle>
+                  <CardDescription>Complete Archive</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600 mb-4">
+                    Visit our main website to access the complete Federal Data Prospector newsletter archive.
+                  </p>
+                  <Button variant="outline" className="w-full" asChild>
+                    <a href="https://www.carpedatumdc.com/" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                      Visit Website
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
           {/* Additional Info */}
           <div className="mt-16 text-center">
             <div className="bg-slate-100 rounded-lg p-8 max-w-3xl mx-auto">
