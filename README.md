@@ -60,6 +60,84 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## Testing Pipeline & Quality Assurance
+
+This project includes a comprehensive testing infrastructure to ensure code quality and reliability:
+
+### 🔧 **Development Workflow**
+
+1. **Make Changes**: Edit code locally or via Lovable
+2. **Pre-commit Validation**: Automatic checks run before each commit
+3. **CI/CD Pipeline**: GitHub Actions validate all changes
+4. **Code Review**: Optional automated review for quality feedback
+5. **Merge Protection**: Only validated code reaches main branch
+
+### 🛡️ **Pre-commit Hooks**
+
+Automatically run before each commit to catch issues early:
+
+- **ESLint**: Code style and error checking
+- **TypeScript**: Type safety validation  
+- **Build Check**: Ensures deployable artifacts
+- **Code Quality**: Removes trailing whitespace, fixes formatting
+
+**Setup Pre-commit Hooks:**
+```sh
+# Install pre-commit (if not already installed)
+pip install pre-commit
+
+# Install git hooks
+pre-commit install
+
+# Run manually on all files (optional)
+pre-commit run --all-files
+```
+
+### 🚀 **GitHub Actions CI/CD**
+
+**Automated Testing on Every Push/PR:**
+- **Multi-Node Testing**: Node.js 18.x and 20.x compatibility
+- **Security Scanning**: Vulnerability detection with Trivy
+- **Build Verification**: Ensures successful production builds
+- **Artifact Generation**: Build outputs stored for debugging
+
+**Test Commands:**
+```sh
+npm run test        # Complete test suite (lint + type-check + build)
+npm run lint        # ESLint validation
+npm run lint:fix    # Auto-fix ESLint issues
+npm run type-check  # TypeScript compilation check
+npm run build       # Production build
+```
+
+### 📊 **Quality Standards**
+
+**All changes must pass:**
+- ✅ ESLint validation (max 10 warnings)
+- ✅ TypeScript compilation 
+- ✅ Successful build generation
+- ✅ Security scan (HIGH/CRITICAL issues only)
+
+**Build Requirements:**
+- Generate valid `dist/` directory
+- Include `index.html` in build output
+- No TypeScript errors
+- ESLint warnings below threshold
+
+### 🔍 **Security & Monitoring**
+
+- **Vulnerability Scanning**: Automated with Trivy
+- **Dependency Checks**: Security issues in packages detected
+- **Build Artifact Verification**: Ensures deployable code
+- **Error Tracking**: Failed builds prevent merges
+
+### 📚 **Additional Resources**
+
+- **Detailed Testing Guide**: See [TESTING.md](./TESTING.md)
+- **Troubleshooting**: Build failures, hook setup, and fixes
+- **Workflow Configuration**: `.github/workflows/ci.yml`
+- **Hook Configuration**: `.pre-commit-config.yaml`
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/f774fa21-f622-4f14-bbed-30300beb1332) and click on Share -> Publish.
