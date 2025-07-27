@@ -162,11 +162,11 @@ const Newsletter = () => {
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=PLzPEGZ8AXA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 27</a>
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=aaZPR0UoURE" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 26</a>
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=sKEO7AnCZeo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 25</a>
-                    <a href="https://conta.cc/69QsuADB0Uo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 24</a>
-                    <a href="https://conta.cc/nlwpRzPiG28" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 23</a>
-                    <a href="https://conta.cc/8FBbO4y9G-g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 22</a>
-                    <a href="https://conta.cc/Vwk7eBbTtGs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 21</a>
-                    <a href="https://conta.cc/Q7AQyQuIgQI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 20</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=69QsuADB0Uo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 24</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=nlwpRzPiG28" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 23</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=8FBbO4y9G-g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 22</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=Vwk7eBbTtGs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 21</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=Q7AQyQuIgQI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 20</a>
                     <a href="https://conta.cc/lvim9hFEbx8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 19</a>
                     <a href="https://conta.cc/L6Yim8EqqG8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 18</a>
                     <a href="https://conta.cc/qUzEE-j1oZA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 17</a>
@@ -188,7 +188,7 @@ const Newsletter = () => {
                     <a href="https://conta.cc/zMnYA4_m678" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 1</a>
                   </div>
                   <p className="text-xs text-slate-500 mt-4">
-                    Complete Volume 7 contains all 29 issues. Issues 1-24 use conta.cc links, Issues 25-29 use full ConstantContact URLs. All links redirect to ConstantContact email newsletter archive.
+                    Complete Volume 7 contains all 29 issues. Issues 1-19 use conta.cc links, Issues 20-29 use full ConstantContact URLs. All links redirect to ConstantContact email newsletter archive.
                   </p>
                 </CardContent>
               </Card>
