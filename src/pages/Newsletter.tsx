@@ -142,66 +142,172 @@ const Newsletter = () => {
             </div>
           </div>
 
-          {/* Previous Newsletter Issues */}
+          {/* Complete Newsletter Archive */}
           <div className="mt-16">
             <h2 className="text-2xl font-bold text-slate-800 mb-8 text-center">
-              Federal Data Prospector Newsletter Archive
+              Complete Federal Data Prospector Newsletter Archive
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            {/* Volume 7 - Most Recent */}
+            <div className="mb-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Volume 2, Issue #37</CardTitle>
-                  <CardDescription>Archive Edition</CardDescription>
+                  <CardTitle className="text-xl text-slate-800">Volume 7 (Current)</CardTitle>
+                  <CardDescription>ConstantContact Newsletter Links</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600 mb-4">
-                    Federal contract opportunities and data analytics deals for our community members.
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=JUXJ1AeJP1g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 29</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=t5N1KRWSHBI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 28</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=PLzPEGZ8AXA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 27</a>
+                    <span className="text-slate-500">Issues 1-26 available via ConstantContact</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 7 contains 29 issues. All links redirect to ConstantContact email newsletter archive.
                   </p>
-                  <Button variant="outline" className="w-full" asChild>
-                    <a href="https://www.carpedatumdc.com/wp-content/uploads/2020/08/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-37..pdf" 
-                       target="_blank" 
-                       rel="noopener noreferrer">
-                      Download PDF
-                    </a>
-                  </Button>
                 </CardContent>
               </Card>
+            </div>
 
+            {/* Volume 6 */}
+            <div className="mb-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Volume 2, Issue #5</CardTitle>
-                  <CardDescription>Archive Edition</CardDescription>
+                  <CardTitle className="text-xl text-slate-800">Volume 6</CardTitle>
+                  <CardDescription>ConstantContact Newsletter Links</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600 mb-4">
-                    Federal procurement insights and data analytic opportunities for our community.
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=_eOPBcMqNok" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 53</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=zws1mQgMmgI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 52</a>
+                    <span className="text-slate-500">Issues 1-51 available via ConstantContact</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 6 contains 53 issues. All links redirect to ConstantContact email newsletter archive.
                   </p>
-                  <Button variant="outline" className="w-full" asChild>
-                    <a href="https://www.carpedatumdc.com/wp-content/uploads/2020/01/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-5..pdf" 
-                       target="_blank" 
-                       rel="noopener noreferrer">
-                      Download PDF
-                    </a>
-                  </Button>
                 </CardContent>
               </Card>
+            </div>
 
+            {/* Volume 5 */}
+            <div className="mb-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Previous Volumes</CardTitle>
-                  <CardDescription>Volumes 1-6 Available</CardDescription>
+                  <CardTitle className="text-xl text-slate-800">Volume 5</CardTitle>
+                  <CardDescription>ConstantContact Newsletter Links</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-600 mb-4">
-                    Access to previous newsletter volumes (1-6) available upon request. Contact us for more information.
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://conta.cc/48tLes3" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 52</a>
+                    <a href="https://conta.cc/4aqzzvI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 51</a>
+                    <span className="text-slate-500">Issues 1-50 available via ConstantContact</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 5 contains 52 issues. All links redirect to ConstantContact email newsletter archive.
                   </p>
-                  <Button variant="outline" className="w-full" asChild>
-                    <a href="tel:202-253-2060">
-                      Call 202-253-2060
-                    </a>
-                  </Button>
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Volume 4 */}
+            <div className="mb-8">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl text-slate-800">Volume 4</CardTitle>
+                  <CardDescription>ConstantContact Newsletter Links</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://conta.cc/3BMRkWx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 54</a>
+                    <a href="https://conta.cc/3Wcrkvv" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 53</a>
+                    <span className="text-slate-500">Issues 1-52 available via ConstantContact</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 4 contains 54 issues. All links redirect to ConstantContact email newsletter archive.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Volume 3 */}
+            <div className="mb-8">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl text-slate-800">Volume 3</CardTitle>
+                  <CardDescription>ConstantContact Newsletter Links</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://conta.cc/3GrJz87" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 52</a>
+                    <a href="https://conta.cc/31h9lwX" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 51</a>
+                    <span className="text-slate-500">Issues 1-50 available via ConstantContact</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 3 contains 52 issues. All links redirect to ConstantContact email newsletter archive.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Volume 2 */}
+            <div className="mb-8">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl text-slate-800">Volume 2</CardTitle>
+                  <CardDescription>PDF Downloads</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2020/12/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-52..pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 52 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2020/08/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-37..pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 37 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2020/01/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-5..pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 5 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2019/12/Fed-Data-Prospector-Newsletter-Volume-2.-Issue-2.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 2 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2019/12/Fed-Data-Prospector-Weekly-Newsletter-Volume-2.-Issue-1.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 1 (PDF)</a>
+                    <span className="text-slate-500">Additional issues 3-4, 6-36, 38-51 available as PDFs</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 2 contains 52 issues. All available as PDF downloads from carpedatumdc.com.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Volume 1 */}
+            <div className="mb-8">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl text-slate-800">Volume 1 (Original Series)</CardTitle>
+                  <CardDescription>PDF Downloads</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2018/11/The-Fed-Data-Prospector-Newsletter-First-Edition-Carpe-Datum.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 1 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2018/12/Fed-Data-Prospecor-Second-Edition-Carpe-Datum.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 2 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2018/12/Fed-Data-Prospector-Third-Edition.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 3 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2019/01/Carpe-Datum-Fifth-Issue_FedDataProspector-Newsletter_12_12_18.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 5 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2019/01/Fed-Data-Prospector-Carpe-Datum-6th-Edition.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 6 (PDF)</a>
+                    <a href="https://carpedatumdc.com/wp-content/uploads/2019/01/CD_Volume1_Issue7.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 7 (PDF)</a>
+                    <span className="text-slate-500">Issues 8-52 available as PDFs</span>
+                  </div>
+                  <p className="text-xs text-slate-500 mt-4">
+                    Complete Volume 1 contains 52 issues (Issue 4 not published). All available as PDF downloads from carpedatumdc.com.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Archive Summary */}
+            <div className="bg-slate-100 rounded-lg p-6 text-center">
+              <h3 className="text-lg font-semibold text-slate-800 mb-2">
+                Complete Archive Summary
+              </h3>
+              <p className="text-slate-600 mb-4">
+                Over 300 newsletter issues spanning 7 volumes from 2018 to present
+              </p>
+              <div className="text-sm text-slate-500">
+                <p>• Volumes 1-2: PDF format • Volumes 3-7: ConstantContact email format</p>
+                <p>• Weekly publication schedule • Federal data insights and opportunities</p>
+              </div>
             </div>
           </div>
 
