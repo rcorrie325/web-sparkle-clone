@@ -152,18 +152,43 @@ const Newsletter = () => {
             <div className="mb-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-xl text-slate-800">Volume 7 (Current)</CardTitle>
+                  <CardTitle className="text-xl text-slate-800">Volume 7 (Current) - All 29 Issues</CardTitle>
                   <CardDescription>ConstantContact Newsletter Links</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+                  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm">
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=JUXJ1AeJP1g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 29</a>
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=t5N1KRWSHBI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 28</a>
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=PLzPEGZ8AXA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 27</a>
-                    <span className="text-slate-500">Issues 1-26 available via ConstantContact</span>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=aaZPR0UoURE" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 26</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=sKEO7AnCZeo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 25</a>
+                    <a href="https://conta.cc/69QsuADB0Uo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 24</a>
+                    <a href="https://conta.cc/nlwpRzPiG28" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 23</a>
+                    <a href="https://conta.cc/8FBbO4y9G-g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 22</a>
+                    <a href="https://conta.cc/Vwk7eBbTtGs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 21</a>
+                    <a href="https://conta.cc/Q7AQyQuIgQI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 20</a>
+                    <a href="https://conta.cc/lvim9hFEbx8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 19</a>
+                    <a href="https://conta.cc/L6Yim8EqqG8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 18</a>
+                    <a href="https://conta.cc/qUzEE-j1oZA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 17</a>
+                    <a href="https://conta.cc/EakJl9oZ2cw" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 16</a>
+                    <a href="https://conta.cc/2IbA_7hO3WI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 15</a>
+                    <a href="https://conta.cc/tFtxphBQW4U" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 14</a>
+                    <a href="https://conta.cc/nNN8uRd04po" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 13</a>
+                    <a href="https://conta.cc/iJq5TftJeik" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 12</a>
+                    <a href="https://conta.cc/B5NJ4q6tipY" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 11</a>
+                    <a href="https://conta.cc/tJPa9K6vh5k" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 10</a>
+                    <a href="https://conta.cc/Mx1NineW59g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 9</a>
+                    <a href="https://conta.cc/yNOvvm9bVZk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 8</a>
+                    <a href="https://conta.cc/J24pimmHN_0" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 7</a>
+                    <a href="https://conta.cc/7OkI4KcAgos" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 6</a>
+                    <a href="https://conta.cc/Hy5bEDtNdxs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 5</a>
+                    <a href="https://conta.cc/5KRmQLY_pXc" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 4</a>
+                    <a href="https://conta.cc/SorSR88Pvdk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 3</a>
+                    <a href="https://conta.cc/uWiOqu0sjmI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 2</a>
+                    <a href="https://conta.cc/zMnYA4_m678" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 1</a>
                   </div>
                   <p className="text-xs text-slate-500 mt-4">
-                    Complete Volume 7 contains 29 issues. All links redirect to ConstantContact email newsletter archive.
+                    Complete Volume 7 contains all 29 issues. Issues 1-24 use conta.cc links, Issues 25-29 use full ConstantContact URLs. All links redirect to ConstantContact email newsletter archive.
                   </p>
                 </CardContent>
               </Card>
