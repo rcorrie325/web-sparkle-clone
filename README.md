@@ -4,6 +4,49 @@
 
 **URL**: https://lovable.dev/projects/f774fa21-f622-4f14-bbed-30300beb1332
 
+## 🚀 Quick Start & Demo
+
+### **Launch Demo Website (One Command)**
+
+```sh
+# Install dependencies and start development server
+npm i && npm run dev
+```
+
+**✨ Demo will be available at:** `http://localhost:5173`
+
+### **Platform Testing Commands**
+
+```sh
+# 🔍 Quick Test (Essential checks)
+npm run test
+
+# 🛡️ Full Quality Pipeline (Recommended)
+npm run test:full
+
+# 🌐 Build Production Demo
+npm run build && npm run preview
+
+# 🔧 Fix Common Issues
+npm run lint:fix && npm run audit:fix
+```
+
+### **Instant Website Preview**
+
+```sh
+# Method 1: Development Mode (Hot Reload)
+npm run dev
+# Opens: http://localhost:5173
+
+# Method 2: Production Preview
+npm run build && npm run preview  
+# Opens: http://localhost:4173
+```
+
+**💡 Pro Tip**: Use `npm run dev` for editing, `npm run preview` for final testing
+
+---
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
@@ -104,10 +147,13 @@ pre-commit run --all-files
 **Test Commands:**
 ```sh
 npm run test        # Complete test suite (lint + type-check + build)
+npm run test:full   # Full pipeline (audit + lint + type-check + build)
 npm run lint        # ESLint validation
 npm run lint:fix    # Auto-fix ESLint issues
 npm run type-check  # TypeScript compilation check
 npm run build       # Production build
+npm run audit       # Security vulnerability check
+npm run preview     # Preview production build locally
 ```
 
 ### 📊 **Quality Standards**
