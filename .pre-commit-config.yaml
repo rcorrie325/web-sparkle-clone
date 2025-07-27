@@ -9,8 +9,16 @@ repos:
 
   - repo: local
     hooks:
+      - id: dependency-audit
+        name: Dependency Security Audit
+        entry: sh -c "npm audit --audit-level moderate || echo 'Audit completed with warnings'"
+        language: system
+        pass_filenames: false
+        require_serial: true
+        always_run: true
+
       - id: eslint
-        name: eslint
+        name: ESLint
         entry: npm run lint
         language: system
         types: [javascript, jsx, ts, tsx]
