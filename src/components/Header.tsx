@@ -33,7 +33,7 @@ const Header = () => {
               Seize the Data... To Grow Your Business
             </p>
             <p className="text-slate-300 text-sm">
-              Learn More! 202-253-2060
+              Learn More! <a href="tel:+12022532060" className="hover:text-white transition-colors">202-253-2060</a>
             </p>
           </div>
         </div>

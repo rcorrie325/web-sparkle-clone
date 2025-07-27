@@ -40,7 +40,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Phone</h3>
-                  <p className="text-muted-foreground">202-253-2060</p>
+                  <p className="text-muted-foreground">
+                    <a href="tel:+12022532060" className="hover:text-foreground transition-colors">202-253-2060</a>
+                  </p>
                 </div>
               </div>
               
@@ -75,9 +77,11 @@ const Contact = () => {
               </div>
             </div>
 
-            <Button size="lg" className="w-full sm:w-auto">
-              <Phone className="w-4 h-4 mr-2" />
-              Call Now: 202-253-2060
+            <Button size="lg" className="w-full sm:w-auto" asChild>
+              <a href="tel:+12022532060">
+                <Phone className="w-4 h-4 mr-2" />
+                Call Now: 202-253-2060
+              </a>
             </Button>
           </div>
 
