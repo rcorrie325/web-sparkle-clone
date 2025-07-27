@@ -167,7 +167,7 @@ const Newsletter = () => {
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=8FBbO4y9G-g" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 22</a>
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=Vwk7eBbTtGs" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 21</a>
                     <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=Q7AQyQuIgQI" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 20</a>
-                    <a href="https://conta.cc/lvim9hFEbx8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 19</a>
+                    <a href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=N7YuKKddDlg" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 19</a>
                     <a href="https://conta.cc/L6Yim8EqqG8" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 18</a>
                     <a href="https://conta.cc/qUzEE-j1oZA" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 17</a>
                     <a href="https://conta.cc/EakJl9oZ2cw" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Issue 16</a>
