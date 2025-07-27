@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import capitolBackground from "@/assets/real-capitol-background.jpg";
 
@@ -18,7 +17,7 @@ const Newsletter = () => {
         <div className="absolute inset-0 bg-slate-900/70"></div>
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="text-center text-white">
-            <h1 className="text-4xl font-bold mb-4">Carpe Datum Newsletter</h1>
+            <h1 className="text-4xl font-bold mb-4">Fed Data Prospector Newsletter</h1>
             <p className="text-xl text-slate-200">
               Stay informed with the latest insights in government data and analytics
             </p>
@@ -41,43 +40,20 @@ const Newsletter = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <form className="space-y-4">
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">
-                        Email Address
-                      </label>
-                      <Input 
-                        type="email" 
-                        id="email" 
-                        placeholder="your.email@example.com"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">
-                        Full Name
-                      </label>
-                      <Input 
-                        type="text" 
-                        id="name" 
-                        placeholder="Your Name"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="organization" className="block text-sm font-medium text-slate-700 mb-2">
-                        Organization (Optional)
-                      </label>
-                      <Input 
-                        type="text" 
-                        id="organization" 
-                        placeholder="Your Organization"
-                      />
-                    </div>
-                    <Button type="submit" className="w-full">
-                      Subscribe Now
+                  <div className="space-y-4">
+                    <p className="text-slate-600 mb-4">
+                      To subscribe to our Federal Data Prospector Newsletter, please click the button below:
+                    </p>
+                    <Button asChild className="w-full">
+                      <a 
+                        href="https://cd1.azurewebsites.net/api/trk?t=SubWS1&r=885dea0431284790a185967be36b5c89"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Subscribe Now
+                      </a>
                     </Button>
-                  </form>
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -137,6 +113,35 @@ const Newsletter = () => {
             </div>
           </div>
 
+          {/* Most Recent Newsletter */}
+          <div className="mt-16">
+            <h2 className="text-2xl font-bold text-slate-800 mb-8 text-center">
+              Most Recent Newsletter
+            </h2>
+            <div className="max-w-2xl mx-auto">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-xl">Fed Data Prospector Newsletter – Volume 7. Issue 29.</CardTitle>
+                  <CardDescription>Latest Edition</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-600 mb-4">
+                    Our most recent newsletter featuring federal data opportunities and industry insights.
+                  </p>
+                  <Button variant="outline" className="w-full" asChild>
+                    <a 
+                      href="https://myemail.constantcontact.com/subject.html?soid=1131618242334&aid=JUXJ1AeJP1g"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      Read Latest Issue
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
           {/* Previous Newsletter Issues */}
           <div className="mt-16">
             <h2 className="text-2xl font-bold text-slate-800 mb-8 text-center">
@@ -146,7 +151,7 @@ const Newsletter = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">Volume 2, Issue #37</CardTitle>
-                  <CardDescription>Latest Edition</CardDescription>
+                  <CardDescription>Archive Edition</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
@@ -165,7 +170,7 @@ const Newsletter = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="text-lg">Volume 2, Issue #5</CardTitle>
-                  <CardDescription>Previous Edition</CardDescription>
+                  <CardDescription>Archive Edition</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
@@ -183,18 +188,16 @@ const Newsletter = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">More Issues</CardTitle>
-                  <CardDescription>Complete Archive</CardDescription>
+                  <CardTitle className="text-lg">Previous Volumes</CardTitle>
+                  <CardDescription>Volumes 1-6 Available</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-600 mb-4">
-                    Visit our main website to access the complete Federal Data Prospector newsletter archive.
+                    Access to previous newsletter volumes (1-6) available upon request. Contact us for more information.
                   </p>
                   <Button variant="outline" className="w-full" asChild>
-                    <a href="https://www.carpedatumdc.com/" 
-                       target="_blank" 
-                       rel="noopener noreferrer">
-                      Visit Website
+                    <a href="tel:202-253-2060">
+                      Call 202-253-2060
                     </a>
                   </Button>
                 </CardContent>
@@ -211,6 +214,15 @@ const Newsletter = () => {
               <p className="text-slate-600 mb-6">
                 Connect with government contractors, analysts, and business leaders who rely on 
                 Carpe Datum for actionable insights that drive growth and success.
+              </p>
+              <p className="text-slate-600 mb-4">
+                For more information about our newsletter or to request past issues, please contact us at{" "}
+                <a 
+                  href="tel:202-253-2060"
+                  className="text-blue-600 hover:text-blue-800 underline font-medium"
+                >
+                  202-253-2060
+                </a>
               </p>
               <p className="text-xs text-slate-500 mt-6">
                 Unsubscribe at any time. We respect your privacy and never share your information.
